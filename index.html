@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reddit Wealth Intelligence — May 03, 2026</title>
+    <style>
+        :root {
+            --bg:       #0f172a;
+            --surface:  #1e293b;
+            --border:   #334155;
+            --text:     #e2e8f0;
+            --muted:    #94a3b8;
+            --accent:   #38bdf8;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            background: var(--bg);
+            color: var(--text);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            font-size: 15px;
+            line-height: 1.6;
+            padding: 24px;
+        }
+        .header {
+            max-width: 900px;
+            margin: 0 auto 40px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid var(--border);
+        }
+        .header h1 {
+            font-size: 26px;
+            font-weight: 700;
+            color: var(--accent);
+            margin-bottom: 6px;
+        }
+        .header-meta {
+            color: var(--muted);
+            font-size: 13px;
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .header-meta span { display: flex; align-items: center; gap: 6px; }
+        main { max-width: 900px; margin: 0 auto; }
+        .topic-section { margin-bottom: 44px; }
+        .topic-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px 16px;
+            background: var(--surface);
+            border-radius: 8px 8px 0 0;
+            border-bottom: 1px solid var(--border);
+        }
+        .topic-header h2 { font-size: 17px; font-weight: 700; }
+        .post-count {
+            font-size: 12px;
+            color: var(--muted);
+            background: var(--bg);
+            padding: 3px 10px;
+            border-radius: 20px;
+            border: 1px solid var(--border);
+        }
+        .post-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-top: none;
+            padding: 16px 20px;
+        }
+        .post-card:last-child { border-radius: 0 0 8px 8px; }
+        .post-card + .post-card { border-top: 1px solid var(--border); }
+        .post-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 8px;
+        }
+        .subreddit {
+            font-size: 11px;
+            font-weight: 700;
+            color: var(--accent);
+            background: rgba(56,189,248,0.1);
+            padding: 2px 8px;
+            border-radius: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .relevance-badge {
+            font-size: 11px;
+            color: #fbbf24;
+            background: rgba(251,191,36,0.1);
+            padding: 2px 8px;
+            border-radius: 4px;
+        }
+        .post-title {
+            display: block;
+            font-size: 15px;
+            font-weight: 600;
+            color: var(--text);
+            text-decoration: none;
+            margin-bottom: 8px;
+            line-height: 1.4;
+        }
+        .post-title:hover { color: var(--accent); }
+        .post-preview {
+            font-size: 13px;
+            color: var(--muted);
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+        .post-meta {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            font-size: 12px;
+            color: var(--muted);
+            flex-wrap: wrap;
+        }
+        .read-link {
+            margin-left: auto;
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 12px;
+        }
+        .read-link:hover { text-decoration: underline; }
+        .no-results {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-top: none;
+            border-radius: 0 0 8px 8px;
+            padding: 20px;
+            color: var(--muted);
+            font-style: italic;
+        }
+        .footer {
+            max-width: 900px;
+            margin: 40px auto 0;
+            padding-top: 20px;
+            border-top: 1px solid var(--border);
+            font-size: 12px;
+            color: var(--muted);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>🧠 Reddit Wealth Intelligence</h1>
+        <div class="header-meta">
+            <span>📅 Sunday, May 03, 2026 at 03:10 PM</span>
+            <span>⏱ Period: WEEK</span>
+            <span>📊 30 relevant posts</span>
+            <span>🔍 5 topic areas</span>
+        </div>
+    </header>
+
+    <main>
+        
+        <section class="topic-section">
+            <div class="topic-header" style="border-left: 5px solid #dc2626;">
+                <h2 style="color: #dc2626;">🔴 Tax Management & Strategic Avoidance</h2>
+                <span class="post-count">6 posts</span>
+            </div>
+            
+                <div class="post-card">
+                    <div class="post-header">
+                        <span class="subreddit">r/personalfinance</span>
+                        <span class="relevance-badge">⚡ 12 relevance</span>
+                    </div>
+                    <a href="https://reddit.com/r/personalfinance/comments/1swm7es/how_to_prepare_for_end_of_life/" target="_blank" class="post-title">How to prepare for end of life</a>
+                    <p class="post-preview">I was given anywhere between 6-12 months left. I’ve come to terms with it and am trying to set my family up as I am the breadwinner.
+
+I recently bought a home and have about $100k equity in it. I receive roughly $9k/month in disability benefits between my private policy and the V…</p>
+                    <div class="post-meta">
+                        <span>▲ 2,302 upvotes</span>
+                        <span>💬 249 comments</span>
+                        <span>📅 Apr 26, 2026</span>
+                        <a href="https://reddit.com/r/personalfinance/comments/1swm7es/how_to_prepare_for_end_of_life/" target="_blank" class="read-link">Read thread →</a>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <div class="post-header">
+                        <span class="subreddit">r/personalfinance</span>
+                        <span class="relevance-badge">⚡ 12 relevance</span>
+                    </div>
+                    <a href="https://reddit.com/r/personalfinance/comments/1syb3a2/grandpa_is_giving_me_valuable_family_land_that_i/" target="_blank" class="post-title">Grandpa is giving me valuable family land that I can’t sell. What’s the smartest financial move?</a>
+                    <p class="post-preview">My grandpa is planning on giving me one of his old lots ,  
+For full disclosure he still has not given it but has announced it in the family and we will attend the lawyer next week .
+
+The lot is located in the most sought after neighborhood in my small town , there is very high d…</p>
+                    <div class="post-meta">
+                        <span>▲ 1,564 upvotes</span>
+                        <span>💬 202 comments</span>
+                        <span>📅 Apr 28, 2026</span>
+                        <a href="https://reddit.com/r/personalfinance/comments/1syb3a2/grandpa_is_giving_me_valuable_family_land_that_i/" target="_blank" class="read-link">Read thread →</a>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <div class="post-header">
+                        <span class="subreddit">r/personalfinance</span>
+                        <span class="relevance-badge">⚡ 11 relevance</span>
+                    </div>
+                    <a href="https://reddit.com/r/personalfinance/comments/1sx5it9/i_desperately_need_help/" target="_blank" class="post-title">I desperately need help</a>
+                    <p class="post-preview">I turn 50 next month and I am screwed. I only have $150,000 set aside for retirement. I got a late start. The reasons do not matter, that is just the position I am in right now. I am able to invest $1,300-$1,500 per month. I max my IRA and then put the rest in a taxable account. …</p>
+                    <div class="post-meta">
+                        <span>▲ 1,376 upvotes</span>
+                        <span>💬 266 comments</span>
+                        <span>📅 Apr 27, 2026</span>
+                        <a href="https://reddit.com/r/personalfinance/comments/1sx5it9/i_desperately_need_help/" target="_blank" class="read-link">Read thread →</a>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <div class="post-header">
+                        <span class="subreddit">r/personalfinance</span>
+                        <span class="relevance-badge">⚡ 10 relevance</span>
+                    </div>
+                    <a href="https://reddit.com/r/personalfinance/comments/1t0avdi/employer_has_been_underfunding_the_employee/" target="_blank" class="post-title">Employer has been underfunding the employee contribution of my 401k</a>
+                    <p class="post-preview">I just discovered that over the last 5 years my employer has been underfunding the voluntary employee (mine) monthly contribution to my 401k. When initially hired I opted for a 5% contribution and then my company also contributes at a higher rate. The company correctly set my con…</p>
+                    <div class="post-meta">
+                        <span>▲ 474 upvotes</span>
+                        <span>💬 113 comments</span>
+                        <span>📅 Apr 30, 2026</span>
+                        <a href="https://reddit.com/r/personalfinance/comments/1t0avdi/employer_has_been_underfunding_the_employee/" target="_blank" class="read-link">Read thread →</a>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <div class="post-header">
+                        <span class="subreddit">r/personalfinance</span>
+                        <span class="relevance-badge">⚡ 8 relevance</span>
+                    </div>
+                    <a href="https://reddit.com/r/personalfinance/comments/1szd5uw/someone_opened_a_3000_loan_in_my_name/" target="_blank" class="post-title">Someone Opened a $3000 Loan in My Name</a>
+                    <p class="post-preview">I (19F) work full time. I make adequate money and have a bit saved up. I am currently freaking out because someone opened a $3000 loan in my name with all of the correct information on Upstart. I am freaking thefuck out. I cannot afford to pay back that much over the course of 5 …</p>
+                    <div class="post-meta">
+                        <span>▲ 853 upvotes</span>
+                        <span>💬 157 comments</span>
+                        <span>📅 Apr 29, 2026</span>
+                        <a href="https://reddit.com/r/personalfinance/comments/1szd5uw/someone_opened_a_3000_loan_in_my_name/" target="_blank" class="read-link">Read thread →</a>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <div class="post-header">
+                        <span class="subreddit">r/personalfinance</span>
+                        <span class="relevance-badge">⚡ 8 relevance</span>
+                    </div>
+                    <a href="https://reddit.com/r/personalfinance/comments/1t20xzk/should_i_quit_a_new_job_after_one_month_for_my/" target="_blank" class="post-title">Should I quit a new job after one month for my preferred offer?</a>
+                    <p class="post-preview">I’m looking for some neutral advice on a career dilemma. I’ve been in my industry for 10 years and generally stay at companies long-term (only two employers in a decade), so I value my professional reputation.
+
+I was recently job hunting for a few months and had two paths:
+
+**Opt…</p>
+                    <div class="post-meta">
+                        <span>▲ 465 upvotes</span>
+                        <span>💬 163 comments</span>
+                        <span>📅 May 02, 2026</span>
+                        <a href="https://reddit.com/r/personalfinance/comments/1t20xzk/should_i_quit_a_new_job_after_one_month_for_my/" target="_blank" class="read-link">Read thread →</a>
+                    </div>
+                </div>
+        </section>
+        <section class="topic-section">
+            <div class="topic-header" style="border-left: 5px solid #16a34a;">
+                <h2 style="color: #16a34a;">💰 Investing & Wealth Building</h2>
+                <span class="post-count">6 posts</span>
+            </div>
+            
+                <div class="post-card">
+                    <div class="post-header">
+                        <span class="subreddit">r/Bogleheads</span>
+                        <span class="relevance-badge">⚡ 12 relevance</span>
+                    </div>
+                    <a href="https://reddit.com/r/Bogleheads/comments/1syihqg/bogleheads_guide_to_the_fed/" target="_blank" class="post-title">Bogleheads guide to the Fed</a>
+                    <p class="post-preview">Hey everyone! Before I begin I want to mention I am *an* advisor but I'm not *your* advisor. None of what I say is individual financial advice specific to you and your financial situation.
+
+**TLDR:** The Fed controls one overnight rate. It influences everything else but controls …</p>
+                    <div class="post-meta">
+                        <span>▲ 108 upvotes</span>
+                        <span>💬 23 comments</span>
+                        <span>📅 Apr 28, 2026</span>
+                        <a href="https://reddit.com/r/Bogleheads/comments/1syihqg/bogleheads_guide_to_the_fed/" target="_blank" class="read-link">Read thread →</a>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <div class="post-header">
+                        <span class="subreddit">r/investing</span>
+                        <span class="relevance-badge">⚡ 11 relevance</span>
+                    </div>
+                    <a href="https://reddit.com/r/investing/comments/1t09qox/reddit_reports_free_cash_flow_of_311_million/" target="_blank" class="post-title">Reddit reports Free Cash Flow of $311 million versus $127 million. Strong</a>
+                    <p class="post-preview">And average revenue per user of $5.23 up 44%.  Still a fraction of Instagram - despite highly targetable specific discussion groups 
+
+DAUs up 17%.   Led by international up 26%.   Revenue overall up 69% to $609 million and net income nearly doubled to $204 million.  
+
+They are bu…</p>
+                    <div class="post-meta">
+                        <span>▲ 564 upvotes</span>
+                        <span>💬 217 comments</span>
+                        <span>📅 Apr 30, 2026</span>
+                        <a href="https://reddit.com/r/investing/comments/1t09qox/reddit_reports_free_cash_flow_of_311_million/" target="_blank" class="read-link">Read thread →</a>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <div class="post-header">
+                        <span class="subreddit">r/investing</span>
+                        <span class="relevance-badge">⚡ 10 relevance</span>
+                    </div>
+                    <a href="https://reddit.com/r/investing/comments/1syh8f6/fidelity_came_up_with_this_plan_for_me_and_i_am/" target="_blank" class="post-title">Fidelity came up with this plan for me and I am not sure what to make of it.</a>
+                    <p class="post-preview">They are proposing the following to me: 45 y/o male currently mostly in cash. Based on our discussions and my risk factor, they are saying 70/30 stocks and bonds. THey are saying it would be a blend of fidelity and non fidelity funds/etfs. I would start with about 50k to invest a…</p>
+                    <div class="post-meta">
+                        <span>▲ 80 upvotes</span>
+                        <span>💬 227 comments</span>
+                        <span>📅 Apr 28, 2026</span>
+                        <a href="https://reddit.com/r/investing/comments/1syh8f6/fidelity_came_up_with_this_plan_for_me_and_i_am/" target="_blank" class="read-link">Read thread →</a>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <div class="post-header">
+                        <span class="subreddit">r/fatFIRE</span>
+                        <span class="relevance-badge">⚡ 10 relevance</span>
+                    </div>
+                    <a href="https://reddit.com/r/fatFIRE/comments/1t0ba8o/first_time_post/" target="_blank" class="post-title">First time post</a>
+                    <p class="post-preview">I’m 51, married, 2 kids under 15. We live in a LCOL, and own a residential/commercial plumbing company that I built over 34 years. We have 32 employees, strong recurring service revenue, and just received an LOI from a strategic buyer for **$34M** (asset sale likely, maybe stock …</p>
+                    <div class="post-meta">
+                        <span>▲ 43 upvotes</span>
+                        <span>💬 35 comments</span>
+                        <span>📅 Apr 30, 2026</span>
+                        <a href="https://reddit.com/r/fatFIRE/comments/1t0ba8o/first_time_post/" target="_blank" class="read-link">Read thread →</a>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <div class="post-header">
+                        <span class="subreddit">r/investing</span>
+                        <span class="relevance-badge">⚡ 9 relevance</span>
+                    </div>
+                    <a href="https://reddit.com/r/investing/comments/1t27zc3/how_much_do_americans_really_have_saved_for/" target="_blank" class="post-title">How much do Americans REALLY have saved for retirement</a>
+                    <p class="post-preview">I am 37 and have about 170k in my roth Ira, this is after years of maxing it out and it is tough. I am just curious of what other people  have saved because if you ask any source they are claiming most Americans my age have A LOT more saved. I think its not true.</p>
+                    <div class="post-meta">
+                        <span>▲ 1,043 upvotes</span>
+                        <span>💬 1,452 comments</span>
+                        <span>📅 May 02, 2026</span>
+                        <a href="https://reddit.com/r/investing/comments/1t27zc3/how_much_do_americans_really_have_saved_for/" target="_blank" class="read-link">Read thread →</a>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <div class="post-header">
+                        <span class="subreddit">r/fatFIRE</span>
+                        <span class="relevance-badge">⚡ 9 relevance</span>
+                    </div>
+                    <a href="https://reddit.com/r/fatFIRE/comments/1swz3t6/people_who_ask_about_hobbies_they_dont_fall_in/" target="_blank" class="post-title">People who ask about hobbies - they don't fall in your lap.</a>
+                    <p class="post-preview">Okay, so I just wanted to touch on a question or comment that people seem to repeat here quite regularly, and that is around the idea of being bored or not knowing what to do when they retire. We do know that, when you retire to nothing, the anecdotal experience here is that many…</p>
+                    <div class="post-meta">
+                        <span>▲ 161 upvotes</span>
+                        <span>💬 211 comments</span>
+                        <span>📅 Apr 27, 2026</span>
+                        <a href="https://reddit.com/r/fatFIRE/comments/1swz3t6/people_who_ask_about_hobbies_they_dont_fall_in/" target="_blank" class="read-link">Read thread →</a>
+                    </div>
+                </div>
+        </section>
+        <section class="topic-section">
+            <div class="topic-header" style="border-left: 5px solid #1d4ed8;">
+                <h2 style="color: #1d4ed8;">🎖️ 100% Service-Connected Disabled Veteran Benefits</h2>
+                <span class="post-count">6 posts</span>
+            </div>
+            
+                <div class="post-card">
+                    <div class="post-header">
+                        <span class="subreddit">r/militaryfinance</span>
+                        <span class="relevance-badge">⚡ 10 relevance</span>
+                    </div>
+                    <a href="https://reddit.com/r/MilitaryFinance/comments/1szvf21/start_here_military_money_101_prime_directive/" target="_blank" class="post-title">Start Here: Military Money 101, Prime Directive, Flow Chart, Updates Monthly</a>
+                    <p class="post-preview">Welcome to the getting started thread for military money. This will cover 90% of what you need to know to be successful with your military paycheck and build wealth in the military.
+
+Some of the most frequent questions in on this subreddit goes:
+
+* **"I have $X, what should I do …</p>
+                    <div class="post-meta">
+                        <span>▲ 49 upvotes</span>
+                        <span>💬 3 comments</span>
+                        <span>📅 Apr 30, 2026</span>
+                        <a href="https://reddit.com/r/MilitaryFinance/comments/1szvf21/start_here_military_money_101_prime_directive/" target="_blank" class="read-link">Read thread →</a>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <div class="post-header">
+                        <span class="subreddit">r/army</span>
+                        <span class="relevance-badge">⚡ 10 relevance</span>
+                    </div>
+                    <a href="https://reddit.com/r/army/comments/1t08w5v/this_movie_sucked_the_249_made_it_through_a_whole/" target="_blank" class="post-title">This movie sucked. The 249 made it through a whole belt without a single stoppage</a>
+                    <p class="post-preview">They should’ve added 3-4 jams to make it realistic. Also fuck controlled bursts just dump that thang. and be sure to blue falcon your former SOF battle buddies with idiotic weapon choices and losing a gunfight to sheriffs deputies</p>
+                    <div class="post-meta">
+                        <span>▲ 1,239 upvotes</span>
+                        <span>💬 131 comments</span>
+                        <span>📅 Apr 30, 2026</span>
+                        <a href="https://reddit.com/r/army/comments/1t08w5v/this_movie_sucked_the_249_made_it_through_a_whole/" target="_blank" class="read-link">Read thread →</a>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <div class="post-header">
+                        <span class="subreddit">r/Veterans</span>
+                        <span class="relevance-badge">⚡ 10 relevance</span>
+                    </div>
+                    <a href="https://reddit.com/r/Veterans/comments/1szcf23/stop_flaunting_your_goodies_please/" target="_blank" class="post-title">Stop flaunting your goodies. Please.</a>
+                    <p class="post-preview">Hello - I’m a member of the r/salary sub and I’ve got to ask - can please stop showcasing our benefits? In most cases I’m pro “if you’ve got it, flaunt it” but in this very divided world, on this very aggressive platform… can we just stop talking about our disability pay? 
+
+Seein…</p>
+                    <div class="post-meta">
+                        <span>▲ 415 upvotes</span>
+                        <span>💬 234 comments</span>
+                        <span>📅 Apr 29, 2026</span>
+                        <a href="https://reddit.com/r/Veterans/comments/1szcf23/stop_flaunting_your_goodies_please/" target="_blank" class="read-link">Read thread →</a>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <div class="post-header">
+                        <span class="subreddit">r/VeteransBenefits</span>
+                        <span class="relevance-badge">⚡ 10 relevance</span>
+                    </div>
+                    <a href="https://reddit.com/r/VeteransBenefits/comments/1szft3n/one_last_desperate_attempt_for_help/" target="_blank" class="post-title">One Last, Desperate Attempt for Help</a>
+                    <p class="post-preview">TLDR: VA error resulted in a huge medical bill that they won't take any responsibility for. I am 100% P&amp;T.
+
+Before you even start typing your reply, "That's not how it works" or "You should have known better", understand that I know how the process works now, and why there is…</p>
+                    <div class="post-meta">
+                        <span>▲ 60 upvotes</span>
+                        <span>💬 90 comments</span>
+                        <span>📅 Apr 29, 2026</span>
+                        <a href="https://reddit.com/r/VeteransBenefits/comments/1szft3n/one_last_desperate_attempt_for_help/" target="_blank" class="read-link">Read thread →</a>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <div class="post-header">
+                        <span class="subreddit">r/army</span>
+                        <span class="relevance-badge">⚡ 10 relevance</span>
+                    </div>
+                    <a href="https://reddit.com/r/army/comments/1syjmy8/were_soldiers_in_the_early_gwot_years_at_a/" target="_blank" class="post-title">Were soldiers in the early GWOT years at a disadvantage due to relatively fewer banger white girl music hits compared to later GWOT years?</a>
+                    <p class="post-preview">OIF2 didn't really blast the white girl music and I feel like we suffered for it. Now don't get me wrong, there were some great tracks in the early GWOT. Spears, Aguilera, Shakira, and J-Lo all had some good ones, but I don't feel like the genre really hit its stride until later …</p>
+                    <div class="post-meta">
+                        <span>▲ 785 upvotes</span>
+                        <span>💬 226 comments</span>
+                        <span>📅 Apr 28, 2026</span>
+                        <a href="https://reddit.com/r/army/comments/1syjmy8/were_soldiers_in_the_early_gwot_years_at_a/" target="_blank" class="read-link">Read thread →</a>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <div class="post-header">
+                        <span class="subreddit">r/USMC</span>
+                        <span class="relevance-badge">⚡ 9 relevance</span>
+                    </div>
+                    <a href="https://reddit.com/r/USMC/comments/1sz0qbx/lejeune_marines_what_the_fuck_is_this/" target="_blank" class="post-title">Lejeune Marines, what the fuck is this?</a>
+                    <p class="post-preview">Also, having been out for a while, that boingo ad is pissing me off 😂 shit was absolute dog shit</p>
+                    <div class="post-meta">
+                        <span>▲ 1,048 upvotes</span>
+                        <span>💬 303 comments</span>
+                        <span>📅 Apr 29, 2026</span>
+                        <a href="https://reddit.com/r/USMC/comments/1sz0qbx/lejeune_marines_what_the_fuck_is_this/" target="_blank" class="read-link">Read thread →</a>
+                    </div>
+                </div>
+        </section>
+        <section class="topic-section">
+            <div class="topic-header" style="border-left: 5px solid #7c3aed;">
+                <h2 style="color: #7c3aed;">🏦 Strategic Debt Leverage</h2>
+                <span class="post-count">6 posts</span>
+            </div>
+            
+                <div class="post-card">
+                    <div class="post-header">
+                        <span class="subreddit">r/personalfinance</span>
+                        <span class="relevance-badge">⚡ 12 relevance</span>
+                    </div>
+                    <a href="https://reddit.com/r/personalfinance/comments/1swm7es/how_to_prepare_for_end_of_life/" target="_blank" class="post-title">How to prepare for end of life</a>
+                    <p class="post-preview">I was given anywhere between 6-12 months left. I’ve come to terms with it and am trying to set my family up as I am the breadwinner.
+
+I recently bought a home and have about $100k equity in it. I receive roughly $9k/month in disability benefits between my private policy and the V…</p>
+                    <div class="post-meta">
+                        <span>▲ 2,292 upvotes</span>
+                        <span>💬 249 comments</span>
+                        <span>📅 Apr 26, 2026</span>
+                        <a href="https://reddit.com/r/personalfinance/comments/1swm7es/how_to_prepare_for_end_of_life/" target="_blank" class="read-link">Read thread →</a>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <div class="post-header">
+                        <span class="subreddit">r/personalfinance</span>
+                        <span class="relevance-badge">⚡ 12 relevance</span>
+                    </div>
+                    <a href="https://reddit.com/r/personalfinance/comments/1syb3a2/grandpa_is_giving_me_valuable_family_land_that_i/" target="_blank" class="post-title">Grandpa is giving me valuable family land that I can’t sell. What’s the smartest financial move?</a>
+                    <p class="post-preview">My grandpa is planning on giving me one of his old lots ,  
+For full disclosure he still has not given it but has announced it in the family and we will attend the lawyer next week .
+
+The lot is located in the most sought after neighborhood in my small town , there is very high d…</p>
+                    <div class="post-meta">
+                        <span>▲ 1,569 upvotes</span>
+                        <span>💬 202 comments</span>
+                        <span>📅 Apr 28, 2026</span>
+                        <a href="https://reddit.com/r/personalfinance/comments/1syb3a2/grandpa_is_giving_me_valuable_family_land_that_i/" target="_blank" class="read-link">Read thread →</a>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <div class="post-header">
+                        <span class="subreddit">r/personalfinance</span>
+                        <span class="relevance-badge">⚡ 11 relevance</span>
+                    </div>
+                    <a href="https://reddit.com/r/personalfinance/comments/1sx5it9/i_desperately_need_help/" target="_blank" class="post-title">I desperately need help</a>
+                    <p class="post-preview">I turn 50 next month and I am screwed. I only have $150,000 set aside for retirement. I got a late start. The reasons do not matter, that is just the position I am in right now. I am able to invest $1,300-$1,500 per month. I max my IRA and then put the rest in a taxable account. …</p>
+                    <div class="post-meta">
+                        <span>▲ 1,379 upvotes</span>
+                        <span>💬 266 comments</span>
+                        <span>📅 Apr 27, 2026</span>
+                        <a href="https://reddit.com/r/personalfinance/comments/1sx5it9/i_desperately_need_help/" target="_blank" class="read-link">Read thread →</a>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <div class="post-header">
+                        <span class="subreddit">r/personalfinance</span>
+                        <span class="relevance-badge">⚡ 8 relevance</span>
+                    </div>
+                    <a href="https://reddit.com/r/personalfinance/comments/1t0avdi/employer_has_been_underfunding_the_employee/" target="_blank" class="post-title">Employer has been underfunding the employee contribution of my 401k</a>
+                    <p class="post-preview">I just discovered that over the last 5 years my employer has been underfunding the voluntary employee (mine) monthly contribution to my 401k. When initially hired I opted for a 5% contribution and then my company also contributes at a higher rate. The company correctly set my con…</p>
+                    <div class="post-meta">
+                        <span>▲ 466 upvotes</span>
+                        <span>💬 113 comments</span>
+                        <span>📅 Apr 30, 2026</span>
+                        <a href="https://reddit.com/r/personalfinance/comments/1t0avdi/employer_has_been_underfunding_the_employee/" target="_blank" class="read-link">Read thread →</a>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <div class="post-header">
+                        <span class="subreddit">r/personalfinance</span>
+                        <span class="relevance-badge">⚡ 8 relevance</span>
+                    </div>
+                    <a href="https://reddit.com/r/personalfinance/comments/1szd5uw/someone_opened_a_3000_loan_in_my_name/" target="_blank" class="post-title">Someone Opened a $3000 Loan in My Name</a>
+                    <p class="post-preview">I (19F) work full time. I make adequate money and have a bit saved up. I am currently freaking out because someone opened a $3000 loan in my name with all of the correct information on Upstart. I am freaking thefuck out. I cannot afford to pay back that much over the course of 5 …</p>
+                    <div class="post-meta">
+                        <span>▲ 849 upvotes</span>
+                        <span>💬 157 comments</span>
+                        <span>📅 Apr 29, 2026</span>
+                        <a href="https://reddit.com/r/personalfinance/comments/1szd5uw/someone_opened_a_3000_loan_in_my_name/" target="_blank" class="read-link">Read thread →</a>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <div class="post-header">
+                        <span class="subreddit">r/RealEstate</span>
+                        <span class="relevance-badge">⚡ 8 relevance</span>
+                    </div>
+                    <a href="https://reddit.com/r/RealEstate/comments/1t0d9kk/sellers_who_bought_in_the_past_45_yrs_are/" target="_blank" class="post-title">Sellers who bought in the past 4-5 yrs are unrealistic as the market cools</a>
+                    <p class="post-preview">Story time/rant. House hunting and I’ve come across SO many listings in the Dallas burbs where it’s like the same things happening on repeat: overpriced, flaunting “new updates” that the previous owner did, rough cosmetic shape inside, and sitting on the market a long time or yo-…</p>
+                    <div class="post-meta">
+                        <span>▲ 822 upvotes</span>
+                        <span>💬 241 comments</span>
+                        <span>📅 Apr 30, 2026</span>
+                        <a href="https://reddit.com/r/RealEstate/comments/1t0d9kk/sellers_who_bought_in_the_past_45_yrs_are/" target="_blank" class="read-link">Read thread →</a>
+                    </div>
+                </div>
+        </section>
+        <section class="topic-section">
+            <div class="topic-header" style="border-left: 5px solid #ea580c;">
+                <h2 style="color: #ea580c;">📈 Asymmetric & Alternative Investments</h2>
+                <span class="post-count">6 posts</span>
+            </div>
+            
+                <div class="post-card">
+                    <div class="post-header">
+                        <span class="subreddit">r/wallstreetbets</span>
+                        <span class="relevance-badge">⚡ 12 relevance</span>
+                    </div>
+                    <a href="https://reddit.com/r/wallstreetbets/comments/1sz8el2/jpow_not_leaving_staying_on_as_governor/" target="_blank" class="post-title">JPOW NOT LEAVING - STAYING ON AS GOVERNOR</a>
+                    <p class="post-preview">https://www.forbes.com/sites/tylerroush/2026/04/29/jerome-powell-vows-low-profile-while-staying-on-fed-board-after-chair-term-expires/</p>
+                    <div class="post-meta">
+                        <span>▲ 31,183 upvotes</span>
+                        <span>💬 583 comments</span>
+                        <span>📅 Apr 29, 2026</span>
+                        <a href="https://reddit.com/r/wallstreetbets/comments/1sz8el2/jpow_not_leaving_staying_on_as_governor/" target="_blank" class="read-link">Read thread →</a>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <div class="post-header">
+                        <span class="subreddit">r/wallstreetbets</span>
+                        <span class="relevance-badge">⚡ 12 relevance</span>
+                    </div>
+                    <a href="https://reddit.com/r/wallstreetbets/comments/1t08345/sir_job_applications_at_jp_morgan_are_up_686000/" target="_blank" class="post-title">Sir, job applications at JP Morgan are up 686,000% this morning</a>
+                    <p class="post-preview">[Link Post]</p>
+                    <div class="post-meta">
+                        <span>▲ 28,212 upvotes</span>
+                        <span>💬 1,220 comments</span>
+                        <span>📅 Apr 30, 2026</span>
+                        <a href="https://reddit.com/r/wallstreetbets/comments/1t08345/sir_job_applications_at_jp_morgan_are_up_686000/" target="_blank" class="read-link">Read thread →</a>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <div class="post-header">
+                        <span class="subreddit">r/wallstreetbets</span>
+                        <span class="relevance-badge">⚡ 12 relevance</span>
+                    </div>
+                    <a href="https://reddit.com/r/wallstreetbets/comments/1sxk0wa/what_its_like_to_be_an_oilgas_analyst_these_days/" target="_blank" class="post-title">What it's like to be an oil&amp;gas analyst these days</a>
+                    <p class="post-preview">[Link Post]</p>
+                    <div class="post-meta">
+                        <span>▲ 26,474 upvotes</span>
+                        <span>💬 1,166 comments</span>
+                        <span>📅 Apr 27, 2026</span>
+                        <a href="https://reddit.com/r/wallstreetbets/comments/1sxk0wa/what_its_like_to_be_an_oilgas_analyst_these_days/" target="_blank" class="read-link">Read thread →</a>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <div class="post-header">
+                        <span class="subreddit">r/wallstreetbets</span>
+                        <span class="relevance-badge">⚡ 12 relevance</span>
+                    </div>
+                    <a href="https://reddit.com/r/wallstreetbets/comments/1sywnnm/good_afternoon/" target="_blank" class="post-title">Good Afternoon.</a>
+                    <p class="post-preview">These michael prompts , work well sometimes. (Chatgpt)
+
+Last conference FOMC press conference as Federal reserve chairman. 
+
+Thanks Mr. Jerome Powell.</p>
+                    <div class="post-meta">
+                        <span>▲ 19,674 upvotes</span>
+                        <span>💬 910 comments</span>
+                        <span>📅 Apr 29, 2026</span>
+                        <a href="https://reddit.com/r/wallstreetbets/comments/1sywnnm/good_afternoon/" target="_blank" class="read-link">Read thread →</a>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <div class="post-header">
+                        <span class="subreddit">r/wallstreetbets</span>
+                        <span class="relevance-badge">⚡ 12 relevance</span>
+                    </div>
+                    <a href="https://reddit.com/r/wallstreetbets/comments/1sz17yd/stunt_on_these_hoes_nana/" target="_blank" class="post-title">Stunt on these hoes Nana.</a>
+                    <p class="post-preview">Sometimes i cant sleep thinking about how much money that guy would have made by now. We all failed you Nana. </p>
+                    <div class="post-meta">
+                        <span>▲ 16,572 upvotes</span>
+                        <span>💬 365 comments</span>
+                        <span>📅 Apr 29, 2026</span>
+                        <a href="https://reddit.com/r/wallstreetbets/comments/1sz17yd/stunt_on_these_hoes_nana/" target="_blank" class="read-link">Read thread →</a>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <div class="post-header">
+                        <span class="subreddit">r/wallstreetbets</span>
+                        <span class="relevance-badge">⚡ 12 relevance</span>
+                    </div>
+                    <a href="https://reddit.com/r/wallstreetbets/comments/1t0ameh/50_shades_of_jp_morgan/" target="_blank" class="post-title">50 Shades of JP Morgan</a>
+                    <p class="post-preview">[Link Post]</p>
+                    <div class="post-meta">
+                        <span>▲ 12,939 upvotes</span>
+                        <span>💬 728 comments</span>
+                        <span>📅 Apr 30, 2026</span>
+                        <a href="https://reddit.com/r/wallstreetbets/comments/1t0ameh/50_shades_of_jp_morgan/" target="_blank" class="read-link">Read thread →</a>
+                    </div>
+                </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        Generated by reddit_intelligence.py · Arnold's Wealth Intelligence System ·
+        Not financial advice — research only.
+    </footer>
+</body>
+</html>
